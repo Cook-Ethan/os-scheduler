@@ -15,10 +15,7 @@
 #include "types.h"
 
 task_t *queue[MAX_TASK_NUM];
-policy_t p;
-int q;
-int size;
-int q_i;
+
 
 
 void init_policy(policy_t policy, int quantum);

@@ -37,6 +37,11 @@
 
 #include "policies.h"
 
+policy_t p;
+int q;
+int size;
+int q_i;
+
 void init_policy(policy_t policy, int quantum) {
     p = policy;
     q = quantum;
