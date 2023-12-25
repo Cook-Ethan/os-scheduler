@@ -48,7 +48,7 @@ int print_stats(stats_t stat_info) {
     printf("Average waiting time: \t\t%.2f\n", stat_info.avg_waiting_time);
     printf("Average response time: \t\t%.2f\n", stat_info.avg_response_time);
     printf("Average turnaround time: \t%.2f\n", stat_info.avg_turnaround_time);
-    printf("Overall CPU Usage: \t\t%.2f\%\n", stat_info.cpu_usage);
+    printf("Overall CPU Usage: \t\t%.2f%%\n", stat_info.cpu_usage);
 
     return EXIT_SUCCESS;
 }

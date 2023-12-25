@@ -6,7 +6,7 @@
  * taskbuilder.h: header file to taskbuilder.c
 */
 
-#ifndef _TASKBUILDER_H_
+#ifndef _TASK_BUILDER_H_
 #define _TASK_BUILDER_H_
 
 #include <stdio.h>
